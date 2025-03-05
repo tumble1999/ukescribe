@@ -52,9 +52,11 @@ h1 {
 }
   #chords {
 	grid-area: chords;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
   }
   
   #chords img {
